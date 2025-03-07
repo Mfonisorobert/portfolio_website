@@ -16,8 +16,19 @@ import React from "react";
           </div>
         </header>
 
-            <div className="bg-[#222831] h-[100vh] flex flex-col justify-center items-start px-40">
-            <h1 className="text-[80px] text-[#FFFFFF] font-extrabold font-poppins"> 
+            <div className="relative bg-[#222831] h-[100vh] flex flex-col items-start px-36 py-44">
+            {/* justify-center */}
+            
+            {/* herovector */}
+            <div className="w-[80%] relative">
+          <img
+            src="/herovector.svg"
+            className="w-[10%] object-cover absolute py-10 -ml-20 "
+            alt="vector"
+          />
+        </div>
+            
+            <h1 className="text-[84px] text-[#FFFFFF] font-extrabold font-poppins"> 
             CREATIVE WEB <p className="-mt-10 text-[#bf205a]">DEVELOPER</p>
             </h1>
             <div className="flex">
@@ -33,10 +44,20 @@ import React from "react";
               </div>
             </div>
 
+            {/* First Background */}
+            <div className="w-[80%] flex items-center justify-center relative">
+          <img
+            src="/doodlesimage.svg"
+            className="w-[60%]   object-cover absolute -right-80 -bottom-28"
+            alt="heropics"
+          />
+        </div>
+
+            {/* Second Background */}
             <div className="w-[60%] flex items-center justify-center relative">
           <img
             src="/heropics.svg"
-            className="w-[80%]   object-cover absolute -right-72"
+            className="w-[60%]   object-cover absolute -right-96 -mb-20"
             alt="heropics"
           />
         </div>
