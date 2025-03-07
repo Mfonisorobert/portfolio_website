@@ -1,9 +1,15 @@
-// import { useState } from 'react'
+import { useState } from 'react'
 import React from "react";
 
 // function App() {
 //   const [count, setCount] = useState(0)
   const App = () => {
+    const [isExpanded, setIsExpanded] = useState(false);
+
+    const toggleText = () => {
+      setIsExpanded(!isExpanded);
+    };
+
   return (
 
     <div className="">
@@ -17,8 +23,7 @@ import React from "react";
         </header>
 
             <div className="relative bg-[#222831] h-[100vh] flex flex-col items-start px-36 py-44">
-            {/* justify-center */}
-            
+                        
             {/* herovector */}
             <div className="w-[80%] relative">
           <img
@@ -27,7 +32,7 @@ import React from "react";
             alt="vector"
           />
         </div>
-            
+            {/* Hero Info */}
             <h1 className="text-[84px] text-[#FFFFFF] font-extrabold font-poppins"> 
             CREATIVE WEB <p className="-mt-10 text-[#bf205a]">DEVELOPER</p>
             </h1>
@@ -62,7 +67,72 @@ import React from "react";
           />
         </div>
             </div>
+
+
+            {/* SECTION TWO */}
+
+            <div className="relative bg-[#222831] h-[100vh] flex flex-col items-start px-36 py-44">
+                        
+                        {/* herovector */}
+                        <div className="w-[80%] relative">
+                      <img
+                        src="/herovector.svg"
+                        className="w-[10%] object-cover absolute py-10 -ml-20 "
+                        alt="vector"
+                      />
+
+                    </div>
+
+                      {/* Hero Info */}
+                      <div>
+                        <h1 className="flex text-[60px] text-[#FFFFFF] gap-6 font-extrabold font-poppins"> 
+                        About<h3 className="text-[#bf205a]">me</h3>
+                        </h1>
+                        
+                        <h3 className="w-[40%] text-[#EEEEEEBF] font-poppins">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nunc vulputate libero et velit interdum, ac aliquet odio mattis. 
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+                        per inceptos himenaeos. Curabitur tempus urna at turpis condimentum 
+                        lobortis {" "}
+          {!isExpanded && (
+                <span className="text-[#EEEEEEBF]">... </span>
+                  )}
+               {isExpanded && (
+          <span>
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+                        per inceptos himenaeos. Curabitur tempus urna at turpis condimentum 
+                        lobortis. Nulla facilisi. Praesent imperdiet tortor id orci hendrerit 
+                        fermentum.
+                          </span>
+                        )}
+                        </h3>
+
+                        <button
+        onClick={toggleText}
+        className=" text-[#ffffff] font-semibold hover:underline focus:outline-none hover:text-[#bf205a]">
+        {isExpanded ? "Read Less" : "Read More"}
+      </button>
+              
+            </div>
+                        
+                      {/* First Background */}
+                      <div className="w-[80%] relative right-28">
+                      <img
+                        src="/doodlesimage2.svg"
+                        className="w-[70%]   object-cover absolute -right-80 -bottom-28"
+                        alt="heropics"/>
+                      </div>
             
+                        {/* Second Background */}
+                        <div className="w-[60%] flex items-center justify-center relative">
+                      <img
+                        src="/heropics2.svg"
+                        className="w-[70%]   object-cover absolute -right-80 -mb-20"
+                        alt="heropics"
+                      />
+                    </div>
+                        </div> 
             
     </div>
   )
