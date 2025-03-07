@@ -71,25 +71,25 @@ import React from "react";
 
             {/* SECTION TWO */}
 
-            <div className="relative bg-[#222831] h-[100vh] flex flex-col items-start px-36 py-44">
+            <div className="relative bg-[#222831] h-[100vh] flex px-36">
                         
                         {/* herovector */}
-                        <div className="w-[80%] relative">
+                        {/* <div className="w-[80%] relative">
                       <img
                         src="/herovector.svg"
                         className="w-[10%] object-cover absolute py-10 -ml-20 "
                         alt="vector"
                       />
 
-                    </div>
+                    </div> */}
 
                       {/* Hero Info */}
-                      <div>
+                      <div className='h-auto w-[50%]'>
                         <h1 className="flex text-[60px] text-[#FFFFFF] gap-6 font-extrabold font-poppins"> 
                         About<h3 className="text-[#bf205a]">me</h3>
                         </h1>
                         
-                        <h3 className="w-[40%] text-[#EEEEEEBF] font-poppins">
+                        <h3 className="w-[40%] text-[#EEEEEEBF] font-poppins overflow-hidden">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Nunc vulputate libero et velit interdum, ac aliquet odio mattis. 
                         Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
@@ -117,22 +117,19 @@ import React from "react";
             </div>
                         
                       {/* First Background */}
-                      <div className="w-[80%] relative right-28">
+                      <div className="w-[60%] relative ">
                       <img
                         src="/doodlesimage2.svg"
-                        className="w-[70%]   object-cover absolute -right-80 -bottom-28"
+                        className="w-[100%] object-cover relative "
                         alt="heropics"/>
                       </div>
-            
-                        {/* Second Background */}
-                        <div className="w-[60%] flex items-center justify-center relative">
+                      {/* Second Background */}
                       <img
                         src="/heropics2.svg"
-                        className="w-[70%]   object-cover absolute -right-80 -mb-20"
+                        className="w-[30%]   object-cover absolute right-48 top-16"
                         alt="heropics"
                       />
-                    </div>
-                        </div> 
+                      </div> 
             
     </div>
   )
