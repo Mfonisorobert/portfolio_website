@@ -71,7 +71,7 @@ import React from "react";
 
             {/* SECTION TWO */}
 
-            <div className="relative bg-[#222831] h-[100vh] flex px-36">
+            <div className="relative bg-[#222831] h-[100vh] flex px-36 py-36">
                         
                         {/* herovector */}
                         {/* <div className="w-[80%] relative">
@@ -89,7 +89,7 @@ import React from "react";
                         About<h3 className="text-[#bf205a]">me</h3>
                         </h1>
                         
-                        <h3 className="w-[40%] text-[#EEEEEEBF] font-poppins overflow-hidden">
+                        <h3 className="w-[80%] text-[#EEEEEEBF] font-poppins">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Nunc vulputate libero et velit interdum, ac aliquet odio mattis. 
                         Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
@@ -126,10 +126,18 @@ import React from "react";
                       {/* Second Background */}
                       <img
                         src="/heropics2.svg"
-                        className="w-[30%]   object-cover absolute right-48 top-16"
+                        className="w-[27%]   object-cover absolute right-60 top-80"
                         alt="heropics"
                       />
                       </div> 
+
+               {/* SECTION THREE */}  
+               <div>
+                <img src="/doodle items.svg"
+                className='bg-[#222831]'
+                />
+                
+                </div>     
             
     </div>
   )
