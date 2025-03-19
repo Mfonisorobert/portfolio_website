@@ -16,9 +16,9 @@ import React from "react";
         <header className="flex justify-between bg-[#222831] items-center px-24 py-4 border-b-2 border-cyan-900">
             <img src="/Blender Logo.png" alt="Logo" className="h-12 w-auto" />     
           <div className="flex space-x-8 text-[#EEEEEE] text-md font-poppins hover:cursor-pointer">
-            <h1 className="hover:text-blue-500">Home</h1>
-            <h1 className="hover:text-blue-500">About Me</h1>
-            <h1 className="hover:text-blue-500">Contact</h1>
+            <h1 className="hover:text-[#bf205a]">Home</h1>
+            <h1 className="hover:text-[#bf205a]">About Me</h1>
+            <h1 className="hover:text-[#bf205a]">Contact</h1>
           </div>
         </header>
 
@@ -131,12 +131,15 @@ import React from "react";
                       />
                       </div> 
 
+               
                {/* SECTION THREE */}  
-               <div>
+               <div className='bg-[#222831] absolute'>
                 <img src="/doodle items.svg"
-                className='bg-[#222831]'
+                className='w-[100%]'
                 />
-                
+                <div className='relative bg-red'>
+                  <h1>My recent works</h1>
+                </div>
                 </div>     
             
     </div>
