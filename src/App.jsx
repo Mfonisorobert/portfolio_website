@@ -61,10 +61,10 @@ import React from "react";
         </div>
 
             {/* Second Background */}
-            <div className="w-full md:w-[60%] flex items-center justify-center relative">
+            <div className="w-full md:w-[60%] flex items-center justify-center relative mt-10 md:mt-10">
           <img
             src="/heropics.svg"
-            className="w-[80%] md:w-[60%]   object-cover absolute -right-96 -mb-20"
+            className="w-[90%] md:w-[60%] object-cover md:absolute md:-right-96 md:-mb-20"
             alt="heropics"
           />
         </div>
