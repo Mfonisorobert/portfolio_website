@@ -13,7 +13,7 @@ import React from "react";
   return (
 
     <div className="">
-        <header className="flex justify-between bg-[#222831] items-center sm:px-4 py-4 md:px-8 lg:px-24 border-b-2 border-cyan-900">
+        <header className="flex justify-between bg-[#222831] items-center sm:px-6 py-4 md:px-10 lg:px-24 border-b-2 border-cyan-900">
             <img src="/Blender Logo.png" alt="Logo" className="h-12 w-auto" />     
           <div className="flex space-x-8 text-[#EEEEEE] text-md font-poppins hover:cursor-pointer">
             <h1 className="hover:text-[#bf205a]">Home</h1>
