@@ -15,7 +15,7 @@ import React from "react";
     <div className="">
         <header className="flex justify-between bg-[#222831] items-center sm:px-6 py-4 md:px-10 lg:px-24 border-b-2 border-cyan-900">
             {/* <img src="/Blender Logo.png" alt="Logo" className="h-12 w-auto" />  */}
-            <h1 className="h-12 w-auto">Mfoniso</h1>    
+            <h1 className="text-md font-poppins hover:cursor-pointer hover:text-[#bf205a]">Mfoniso</h1>    
           <div className="flex space-x-8 text-[#EEEEEE] text-md font-poppins hover:cursor-pointer">
             <h1 className="hover:text-[#bf205a]">Home</h1>
             <h1 className="hover:text-[#bf205a]">About Me</h1>
