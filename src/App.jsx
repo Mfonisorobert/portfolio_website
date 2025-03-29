@@ -13,7 +13,7 @@ import React from "react";
   return (
 
     <div className="">
-        <header className="flex justify-between bg-[#222831] items-center sm:px-10 py-4 md:px-14 lg:px-24 border-b-2 border-cyan-900">
+        <header className="flex justify-between bg-[#222831] items-center px-4 py-4 md:px-8 lg:px-24 border-b-2 border-cyan-900">
             {/* <img src="/Blender Logo.png" alt="Logo" className="h-12 w-auto" />  */}
             <h1 className="text-[#EEEEEE] text-md font-poppins hover:cursor-pointer hover:text-[#bf205a]">Mfoniso</h1>    
           <div className="flex space-x-8 text-[#EEEEEE] text-md font-poppins hover:cursor-pointer">
@@ -34,7 +34,7 @@ import React from "react";
           />
         </div>
             {/* Hero Info */}
-            <h1 className="text-[84px] text-[#FFFFFF] font-extrabold font-poppins"> 
+            <h1 className="text-[#FFFFFF] text-3xl md:text-5xl lg:text-[84px] font-extrabold font-poppins"> 
             CREATIVE WEB <p className="-mt-10 text-[#bf205a]">DEVELOPER</p>
             </h1>
             <div className="flex">
