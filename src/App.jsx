@@ -26,7 +26,7 @@ import React from "react";
             <div className="relative bg-[#222831] h-[100vh] flex flex-col items-start lg:px-36 md:px-18 md:px-9 lg:py-44 md:py-20 sm:py-10">
                         
             {/* herovector */}
-            <div className="w-[80%] relative">
+            <div className="lg:w-[80%] md:w-[40%] sm:w-[10%] relative">
           <img
             src="/herovector.svg"
             className="w-[10%] object-cover absolute py-10 -ml-20 "
