@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import React from "react";
 
+
 // function App() {
 //   const [count, setCount] = useState(0)
   const App = () => {
@@ -87,7 +88,7 @@ import React from "react";
                       {/* Hero Info */}
                       <div className='h-auto w-full md:w-[50%] mb-4 md:mb-0'>
                         <h1 className="text-3xl md:text-5xl lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins"> 
-                        About<h3 className="text-[#bf205a]">me</h3>
+                        About<span className="text-[#bf205a] ml-4">me</span>
                         </h1>
                         
                         <h3 className="w-full md:w-[80%] text-[#EEEEEEBF] font-poppins">
