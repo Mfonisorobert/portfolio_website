@@ -35,7 +35,7 @@ import React from "react";
         </div>
             {/* Hero Info */}
             <h1 className="text-[#FFFFFF] text-3xl md:text-5xl lg:text-[84px] font-extrabold font-poppins"> 
-            CREATIVE WEB <p className="-mt-2 text-[#bf205a]">DEVELOPER</p>
+            CREATIVE WEB <p className="-mt-2 md:-mt-5 lg:-mt-10 text-[#bf205a]">DEVELOPER</p>
             </h1>
             <div className="flex">
             <button className='bg-[#bf205a] text-white px-10 py-2 rounded-3xl font-medium ml-2 hover:bg-white hover:text-[#bf205a]'>
