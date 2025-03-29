@@ -52,7 +52,7 @@ import React from "react";
             </div>
 
             {/* First Background */}
-            <div className=" w-full md:w-[40%] lg:w-[80%] flex  items-center justify-center relative mt-24 md:mt-0">
+            <div className=" w-full md:w-[40%] lg:w-[80%] flex  items-center justify-center relative mt-5 md:mt-0">
           <img
             src="/doodlesimage.svg"
             className="w-[90%] md:w-[60%] lg:w-[60%]  object-cover md:absolute md:-right-80 md:-bottom-28"
