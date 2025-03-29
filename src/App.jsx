@@ -13,7 +13,7 @@ import React from "react";
 
   return (
 
-    <div className="min-h-screen overflow-x-auto">
+    <div className="min-h-screen overflow-x-hidden">
         <header className="flex justify-between bg-[#222831] items-center px-4 py-4 md:px-8 lg:px-24 border-b-2 border-cyan-900">
             {/* <img src="/Blender Logo.png" alt="Logo" className="h-12 w-auto" />  */}
             <h1 className="text-[#EEEEEE] text-md font-poppins hover:cursor-pointer hover:text-[#bf205a]">Mfoniso</h1>    
@@ -52,7 +52,7 @@ import React from "react";
             </div>
 
             {/* First Background */}
-            <div className=" md:w-[40%] lg:w-[80%] flex flex-col items-center justify-center relative">
+            <div className=" md:w-[40%] lg:w-[80%] flex  items-center justify-center relative">
           <img
             src="/doodlesimage.svg"
             className="w-[60%]   object-cover absolute -right-80 -bottom-28"
