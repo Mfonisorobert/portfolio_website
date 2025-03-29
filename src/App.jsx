@@ -38,8 +38,8 @@ import React from "react";
             <h1 className="text-[#FFFFFF] text-3xl md:text-5xl lg:text-[84px] font-extrabold font-poppins mt-20 md:mt-0 lg:mt-0 px-6 md:px-0 lg:px-0"> 
             CREATIVE WEB <span className="-mt-2 md:-mt-18 lg:-mt-4 text-[#bf205a]">DEVELOPER</span>
             </h1>
-            <div className="flex mt-10 px-18 md:px-12 lg:px-0">
-            <button className='bg-[#bf205a] text-white px-10 md:px-10 lg:px-10 py-2 rounded-3xl font-medium   hover:bg-white hover:text-[#bf205a] '>
+            <div className="flex mt-10 px-4 md:px-8 lg:px-0 space-x-4">
+            <button className='bg-[#bf205a] text-white text-sm md:text-md lg:text-lg px-4 py-1 md:px-6 md:py-2 lg:px-10 lg:py-3 rounded-3xl font-medium hover:bg-white hover:text-[#bf205a]'>
               Hire Me
               </button>
               <div>
