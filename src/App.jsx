@@ -43,7 +43,7 @@ import React from "react";
               Hire Me
               </button>
               <div>
-            <button className='flex bg-[#ffffff] text-[#bf205a] px-8 py-2 md:px-8 lg:px-10 gap-4 rounded-3xl font-medium ml-12  hover:bg-[#bf205a] hover:text-[#ffffff]'>
+            <button className='flex bg-[#ffffff] text-[#bf205a] px-8 py-2 md:px-8 lg:px-10 gap-4 md:gap-2 rounded-3xl font-medium ml-12  hover:bg-[#bf205a] hover:text-[#ffffff]'>
               Download CV 
               <img src='/downloadicon.svg' 
               className="w-5 h-6  invert hover:brightness-0"/></button>
