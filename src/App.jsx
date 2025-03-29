@@ -38,12 +38,12 @@ import React from "react";
             <h1 className="text-[#FFFFFF] text-3xl md:text-5xl lg:text-[84px] font-extrabold font-poppins mt-20 md:mt-0 lg:mt-0 px-6 md:px-0 lg:px-0"> 
             CREATIVE WEB <span className="-mt-2 md:-mt-18 lg:-mt-4 text-[#bf205a]">DEVELOPER</span>
             </h1>
-            <div className="flex mt-10 px-4 md:px-8 lg:px-0 space-x-4">
+            <div className="flex mt-10 px-4 md:px-8 lg:px-0 space-x-1">
             <button className='bg-[#bf205a] text-white px-6 md:px-8 lg:px-10 py-2 rounded-3xl font-medium   hover:bg-white hover:text-[#bf205a] '>
               Hire Me
               </button>
               <div>
-            <button className='flex bg-[#ffffff] text-[#bf205a] px-8 py-2 md:px-8 lg:px-10 gap-4 md:gap-1 rounded-3xl font-medium ml-12  hover:bg-[#bf205a] hover:text-[#ffffff]'>
+            <button className='flex bg-[#ffffff] text-[#bf205a] px-8 py-2 md:px-8 lg:px-10 gap-4 rounded-3xl font-medium ml-12  hover:bg-[#bf205a] hover:text-[#ffffff]'>
               Download CV 
               <img src='/downloadicon.svg' 
               className="w-5 h-6  invert hover:brightness-0"/></button>
