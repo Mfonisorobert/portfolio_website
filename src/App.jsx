@@ -72,7 +72,7 @@ import React from "react";
 
             {/* SECTION TWO */}
 
-            <div className="relative bg-[#222831] flex md:flex-row px-4 md:px-8 lg:px-36 py-12 md:py-36">
+            <div className="relative bg-[#222831] flex flex-col md:flex-row px-4 md:px-8 lg:px-36 py-12 md:py-36">
                         
                         {/* herovector */}
                         {/* <div className="w-[80%] relative">
