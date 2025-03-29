@@ -38,7 +38,7 @@ import React from "react";
             CREATIVE WEB <p className="-mt-2 md:-mt-5 lg:-mt-4 text-[#bf205a]">DEVELOPER</p>
             </h1>
             <div className="flex">
-            <button className='bg-[#bf205a] text-white px-10 py-2 rounded-3xl font-medium ml-2 hover:bg-white hover:text-[#bf205a]'>
+            <button className='bg-[#bf205a] text-white px-6 md:px-8 lg:px-10 py-2 rounded-3xl font-medium ml-2 hover:bg-white hover:text-[#bf205a]'>
               Hire Me
               </button>
               <div>
