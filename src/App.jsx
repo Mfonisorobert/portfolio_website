@@ -86,11 +86,11 @@ import React from "react";
 
                       {/* Hero Info */}
                       <div className='h-auto w-full md:w-[50%] mb-4 md:mb-0'>
-                        <h1 className="flex text-[60px] text-[#FFFFFF] gap-6 font-extrabold font-poppins"> 
+                        <h1 className="text-3xl md:text-5xl lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins"> 
                         About<h3 className="text-[#bf205a]">me</h3>
                         </h1>
                         
-                        <h3 className="w-[80%] text-[#EEEEEEBF] font-poppins">
+                        <h3 className="w-full md:w-[80%] text-[#EEEEEEBF] font-poppins">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Nunc vulputate libero et velit interdum, ac aliquet odio mattis. 
                         Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
