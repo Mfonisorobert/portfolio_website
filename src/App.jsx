@@ -14,7 +14,7 @@ import React from "react";
   return (
 
     <div className="min-h-screen overflow-x-hidden">
-        <header className="flex justify-between bg-[#222831] items-center px-4 py-4 md:px-28 lg:px-24 border-b-2 border-cyan-900">
+        <header className="flex justify-between bg-[#222831] items-center px-4 py-4 md:px-8 lg:px-24 border-b-2 border-cyan-900">
             {/* <img src="/Blender Logo.png" alt="Logo" className="h-12 w-auto" />  */}
             <h1 className="text-[#EEEEEE] text-md font-poppins hover:cursor-pointer hover:text-[#bf205a]">Mfoniso</h1>    
           <div className="flex space-x-8 text-[#EEEEEE] text-md font-poppins hover:cursor-pointer">
@@ -36,7 +36,7 @@ import React from "react";
         </div>
             {/* Hero Info */}
             <h1 className="text-[#FFFFFF] text-3xl md:text-5xl lg:text-[84px] font-extrabold font-poppins"> 
-            CREATIVE WEB <p className="-mt-2 md:-mt-5 lg:-mt-4 text-[#bf205a]">DEVELOPER</p>
+            CREATIVE WEB <p className="-mt-2 md:-mt-18 lg:-mt-4 text-[#bf205a]">DEVELOPER</p>
             </h1>
             <div className="flex mt-10 ">
             <button className='bg-[#bf205a] text-white px-6 md:px-8 lg:px-10 py-2 rounded-3xl font-medium ml-2 hover:bg-white hover:text-[#bf205a]'>
