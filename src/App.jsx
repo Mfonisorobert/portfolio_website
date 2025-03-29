@@ -38,12 +38,12 @@ import React from "react";
             <h1 className="text-[#FFFFFF] text-3xl md:text-5xl lg:text-[84px] font-extrabold font-poppins"> 
             CREATIVE WEB <p className="-mt-2 md:-mt-5 lg:-mt-4 text-[#bf205a]">DEVELOPER</p>
             </h1>
-            <div className="flex mt-10 flex-wrap">
+            <div className="flex mt-10 ">
             <button className='bg-[#bf205a] text-white px-6 md:px-8 lg:px-10 py-2 rounded-3xl font-medium ml-2 hover:bg-white hover:text-[#bf205a]'>
               Hire Me
               </button>
               <div>
-            <button className='bg-[#ffffff] text-[#bf205a] px-8 py-2 md:px-8 lg:px-10 gap-4 rounded-3xl flex font-medium ml-12  hover:bg-[#bf205a] hover:text-[#ffffff]'>
+            <button className='flex bg-[#ffffff] text-[#bf205a] px-8 py-2 md:px-8 lg:px-10 gap-4 rounded-3xl font-medium ml-12  hover:bg-[#bf205a] hover:text-[#ffffff]'>
               Download CV 
               <img src='/downloadicon.svg' 
               className="w-5 h-6  invert hover:brightness-0"/></button>
@@ -64,7 +64,7 @@ import React from "react";
             <div className="w-full md:w-[60%] flex items-center justify-center relative ">
           <img
             src="/heropics.svg"
-            className="w-[50%] md:w-[20%] lg:w-[60%] object-cover md:absolute md:-right-96 md:mb-26 -mt-48 md:-mt-0"
+            className="w-[60%] md:w-[20%] lg:w-[60%] object-cover md:absolute md:-right-96 md:mb-26 -mt-48 md:-mt-0"
             alt="heropics"
           />
         </div>
