@@ -42,7 +42,7 @@ import React from "react";
               Hire Me
               </button>
               <div>
-            <button className='bg-[#ffffff] text-[#bf205a] px-8 py-2  gap-4 rounded-3xl flex font-medium ml-12  hover:bg-[#bf205a] hover:text-[#ffffff]'>
+            <button className='bg-[#ffffff] text-[#bf205a] px-8 py-2 md:px-8 lg:px-10 gap-4 rounded-3xl flex font-medium ml-12  hover:bg-[#bf205a] hover:text-[#ffffff]'>
               Download CV 
               <img src='/downloadicon.svg' 
               className="w-5 h-6  invert hover:brightness-0"/></button>
@@ -72,7 +72,7 @@ import React from "react";
 
             {/* SECTION TWO */}
 
-            <div className="relative bg-[#222831] h-[100vh] flex px-36 py-36">
+            <div className="relative bg-[#222831] flex flex-col md:flex-row px-4 md:px-8 lg:px-36 py-12 md:py-36">
                         
                         {/* herovector */}
                         {/* <div className="w-[80%] relative">
