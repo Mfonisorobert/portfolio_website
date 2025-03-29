@@ -24,7 +24,7 @@ import React from "react";
           </div>
         </header>
 
-            <div className="relative bg-[#222831] h-[100%] flex flex-col items-start lg:px-36 md:px-18 lg:py-44 md:py-20 mt-16 md:mt-24 lg:mt-32">
+            <div className="relative bg-[#222831] h-[100%] flex flex-col items-start lg:px-36 md:px-18 lg:py-44 md:py-20">
                         
             {/* herovector */}
             <div className="lg:w-[80%] md:w-[40%] sm:w-[10%] relative">
@@ -35,7 +35,7 @@ import React from "react";
           />
         </div>
             {/* Hero Info */}
-            <h1 className="text-[#FFFFFF] text-3xl md:text-5xl lg:text-[84px] font-extrabold font-poppins"> 
+            <h1 className="text-[#FFFFFF] text-3xl md:text-5xl lg:text-[84px] font-extrabold font-poppins mt-10 md:mt-16 lg:mt-32"> 
             CREATIVE WEB <span className="-mt-2 md:-mt-18 lg:-mt-4 text-[#bf205a]">DEVELOPER</span>
             </h1>
             <div className="flex mt-10 ">
