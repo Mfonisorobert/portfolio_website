@@ -64,7 +64,7 @@ import React from "react";
             <div className="w-full md:w-[60%] flex items-center justify-center relative mt-10 md:mt-10">
           <img
             src="/heropics.svg"
-            className="lg:w-[60%] sm:w-[10%] object-cover md:absolute md:-right-96 md:mb-26 -mt-32 md:-mt-0"
+            className="lg:w-[60%] md:w-[10%] object-cover md:absolute md:-right-96 md:mb-26 -mt-48 md:-mt-0"
             alt="heropics"
           />
         </div>
