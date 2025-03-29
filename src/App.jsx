@@ -23,7 +23,7 @@ import React from "react";
           </div>
         </header>
 
-            <div className="relative bg-[#222831] h-[100vh] flex flex-col items-start px-36 py-44">
+            <div className="relative bg-[#222831] h-[100vh] flex flex-col items-start lg:px-36 md:px-18 md:px-9 lg:py-44 md:py-20 sm:py-10">
                         
             {/* herovector */}
             <div className="w-[80%] relative">
@@ -35,7 +35,7 @@ import React from "react";
         </div>
             {/* Hero Info */}
             <h1 className="text-[#FFFFFF] text-3xl md:text-5xl lg:text-[84px] font-extrabold font-poppins"> 
-            CREATIVE WEB <p className="-mt-2 md:-mt-5 lg:-mt-10 text-[#bf205a]">DEVELOPER</p>
+            CREATIVE WEB <p className="-mt-2 md:-mt-5 lg:-mt-4 text-[#bf205a]">DEVELOPER</p>
             </h1>
             <div className="flex">
             <button className='bg-[#bf205a] text-white px-10 py-2 rounded-3xl font-medium ml-2 hover:bg-white hover:text-[#bf205a]'>
