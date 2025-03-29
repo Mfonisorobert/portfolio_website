@@ -29,7 +29,7 @@ import React from "react";
             <div className="lg:w-[80%] md:w-[40%] sm:w-[10%] relative">
           <img
             src="/herovector.svg"
-            className="w-[10%] object-cover absolute py-10 -ml-20 "
+            className="lg:w-[10%] md:w-[10%] sm:w-[10%] object-cover absolute py-10 -ml-20 "
             alt="vector"
           />
         </div>
