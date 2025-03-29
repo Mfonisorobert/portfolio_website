@@ -35,7 +35,7 @@ import React from "react";
           />
         </div>
             {/* Hero Info */}
-            <h1 className="text-[#FFFFFF] text-3xl md:text-5xl lg:text-[84px] font-extrabold font-poppins mt-20 md:mt-26 lg:mt-48 md:px-12"> 
+            <h1 className="text-[#FFFFFF] text-3xl md:text-5xl lg:text-[84px] font-extrabold font-poppins mt-20 md:mt-0 lg:mt-0"> 
             CREATIVE WEB <span className="-mt-2 md:-mt-18 lg:-mt-4 text-[#bf205a]">DEVELOPER</span>
             </h1>
             <div className="flex mt-10 ">
