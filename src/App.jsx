@@ -39,7 +39,7 @@ import React from "react";
             CREATIVE WEB <span className="-mt-2 md:-mt-18 lg:-mt-4 text-[#bf205a]">DEVELOPER</span>
             </h1>
             <div className="flex mt-10 px-4 md:px-8 lg:px-0 space-x-4">
-            <button className='bg-[#bf205a] text-white text-sm md:text-md lg:text-lg px-4 py-1 md:px-6 md:py-2 lg:px-10 lg:py-3 rounded-3xl font-medium hover:bg-white hover:text-[#bf205a]'>
+            <button className='bg-[#bf205a] text-white px-6 md:px-8 lg:px-10 py-2 rounded-3xl font-medium   hover:bg-white hover:text-[#bf205a] '>
               Hire Me
               </button>
               <div>
@@ -128,7 +128,7 @@ import React from "react";
                       {/* Second Background */}
                       <img
                         src="/heropics2.svg"
-                        className="w-[27%] object-cover absolute right-60 top-80"
+                        className="w-full md:w-[27%] object-cover absolute md:right-60 md:top-80"
                         alt="heropics"
                       />
                       </div> 
