@@ -119,7 +119,7 @@ import React from "react";
             </div>
                         
                       {/* First Background */}
-                      <div className="w-full md:w-[50%] relative ">
+                      <div className="w-full md:w-[80%] relative ">
                       <img
                         src="/doodlesimage2.svg"
                         className="w-full object-cover"
