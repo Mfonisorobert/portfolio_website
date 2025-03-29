@@ -128,7 +128,7 @@ import React from "react";
                       {/* Second Background */}
                       <img
                         src="/heropics2.svg"
-                        className="w-full md:w-[27%] object-cover absolute md:right-60 md:top-80 md:mb-26 mt-48 md:mt-0"
+                        className="w-full md:w-[27%] object-cover absolute md:right-60 md:top-80 md:mb-18 mt-60 md:mt-0"
                         alt="heropics"
                       />
                       </div> 
