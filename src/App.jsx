@@ -23,7 +23,7 @@ import { Menu, X } from 'lucide-react'; // For icons
     <div className="min-h-screen overflow-x-hidden">
         <header className="flex fixed top-0 w-full z-10 justify-between bg-[#222831] items-center px-4 py-4 md:px-8 lg:px-24 border-b-2 border-cyan-900">
             {/* <img src="/Blender Logo.png" alt="Logo" className="h-12 w-auto" />  */}
-            <h1 className="text-[#EEEEEE] text-md font-poppins hover:cursor-pointer hover:text-[#bf205a]">Mfoniso</h1>    
+            <h1 className="text-[#EEEEEE] text-md font-poppins hover:cursor-pointer hover:text-[#bf205a]">Mfoniso Robert</h1>    
           <nav className="hidden md:flex space-x-8 text-[#EEEEEE] text-md font-poppins hover:cursor-pointer">
             <h1 className="hover:text-[#bf205a]">Home</h1>
             <h1 className="hover:text-[#bf205a]">About Me</h1>
