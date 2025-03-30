@@ -149,8 +149,8 @@ import { Menu, X } from 'lucide-react'; // For icons
 
                {/* SECTION THREE */}  
                
-               <div className='bg-[#222831] h-[100%] relative '>
-               {/* min-h-screen md:w-auto md:h-auto */}
+               <div className='bg-[#222831] relative min-h-screen '>
+               {/*  md:w-auto md:h-auto */}
                 <img src="/doodle items.svg"
                 className=''
                 />
@@ -175,21 +175,18 @@ import { Menu, X } from 'lucide-react'; // For icons
                 <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>
                   Web Dev</button>
                 <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>
-                  Video Editing</button>
-              
-              
-                      {/* Square shapes */}
-                      <div className='flex md:absolute gap-8 top-0 justify-center mt-96 w-[30%]  bg-red-800'>
-                <img src="/UIUXFrame.svg"
-                />
-                <img src="/LaptopFrame 11.svg"
-                />
-                <img src="/PhonesFrame 10.svg"
-                />
-                </div>
+                  Video Editing</button>    
               </div>
 
-
+                {/* Square shapes */}
+                <div className='flex md:absolute gap-8 top-0 justify-center px-72 mt-[60%] md:mt-[28%]'>
+                <img src="/UIUXFrame.svg" className='w-20 h-20 md:w-72 md:h-72'
+                />
+                <img src="/LaptopFrame 11.svg" className='w-20 h-20 md:w-72 md:h-72'
+                />
+                <img src="/PhonesFrame 10.svg" className='w-20 h-20 md:w-72 md:h-72'
+                />
+                </div>
                 
 
                 </div>     
