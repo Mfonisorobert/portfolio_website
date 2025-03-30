@@ -6,11 +6,15 @@ import { Menu, X } from 'lucide-react'; // For icons
 // function App() {
 //   const [count, setCount] = useState(0)
   const App = () => {
-    // const [isExpanded, setIsExpanded] = useState(false);
+    const [isExpanded, setIsExpanded] = useState(false); // For Text
+
     const [menuOpen, setMenuOpen] = useState(false); // for Harmburger
 
+    const toggleText = () => {
+      setIsExpanded(!isExpanded); // For Text
+    };
+
     const toggleMenu = () => {
-      // setIsExpanded(!isExpanded);
       setMenuOpen(!menuOpen); // For Harmburger
     };
 
@@ -109,7 +113,7 @@ import { Menu, X } from 'lucide-react'; // For icons
                         About<span className="text-[#bf205a] ml-4">me</span>
                         </h1>
                         
-                        {/* <h3 className="w-full md:w-[80%] text-[#EEEEEEBF] font-poppins">
+                        <h3 className="w-full md:w-[80%] text-[#EEEEEEBF] font-poppins">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Nunc vulputate libero et velit interdum, ac aliquet odio mattis. 
                         Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
@@ -126,13 +130,13 @@ import { Menu, X } from 'lucide-react'; // For icons
                         fermentum.
                           </span>
                         )}
-                        </h3> */}
+                        </h3>
 
-                        {/* <button
+                        <button
         onClick={toggleText}
         className=" text-[#ffffff] font-semibold hover:underline focus:outline-none hover:text-[#bf205a]">
         {isExpanded ? "Read Less" : "Read More"}
-      </button> */}
+      </button>
               
             </div>
                         
