@@ -149,7 +149,7 @@ import { Menu, X } from 'lucide-react'; // For icons
 
                {/* SECTION THREE */}  
                
-               <div className='bg-[#222831] relative px-4 py-8 md:py-2 '>
+               <div className='bg-[#222831] relative px-4 py-8 md:py-2 min-h-screen'>
                {/*  md:w-auto md:h-auto */}
                 <img src="/doodle items.svg"
                 className='object-cover absolute w-full md:w-full top-0 right-0 md:right-auto md:left-0'
