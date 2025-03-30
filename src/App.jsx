@@ -149,10 +149,10 @@ import { Menu, X } from 'lucide-react'; // For icons
 
                {/* SECTION THREE */}  
                
-               <div className='bg-[#222831] h-full relative '>
+               <div className='bg-[#222831] h-[100%] relative '>
                {/* min-h-screen md:w-auto md:h-auto */}
                 <img src="/doodle items.svg"
-                className='w-100% object-contain md:w-auto md:h-auto'
+                className=''
                 />
                 <div className='absolute flex top-0 text-1xl md:text-5xl
                 lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins ml-18 md:ml-36 
@@ -163,6 +163,8 @@ import { Menu, X } from 'lucide-react'; // For icons
                 My recent <span className='text-[#00ADB5]'>works</span></h1>
                 </div>
 
+
+                        {/* Buttons */}
               <div className='absolute top-0 px-36 py-72 space-x-6 font-mono'>
                 <button className='bg-[#00ADB5] px-4 py-2 rounded-3xl'>
                   All</button>
@@ -174,10 +176,10 @@ import { Menu, X } from 'lucide-react'; // For icons
                   Web Dev</button>
                 <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>
                   Video Editing</button>
-              </div>
-
-
-                <div className='flex absolute gap-8 top-0 justify-center py-96'>
+              
+              
+                      {/* Square shapes */}
+                      <div className='flex md:absolute gap-8 top-0 justify-center mt-96 w-[30%]  bg-red-800'>
                 <img src="/UIUXFrame.svg"
                 />
                 <img src="/LaptopFrame 11.svg"
@@ -185,21 +187,13 @@ import { Menu, X } from 'lucide-react'; // For icons
                 <img src="/PhonesFrame 10.svg"
                 />
                 </div>
+              </div>
+
+
+                
 
                 </div>     
             
-                
-                {/* <div className="bg-[#222831] relative">
-  <img 
-    src="/doodle items.svg" 
-    className="w-[100%] object-cover"
-  />
-
-  {/* Text Overlay */}
-  {/* <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-    <h1 className="text-white text-3xl font-bold">My Recent Works</h1>
-  </div>
-</div>  */}
 
     </div>
   )
