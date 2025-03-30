@@ -160,7 +160,7 @@ import { Menu, X } from 'lucide-react'; // For icons
                {/* SECTION THREE */}  
                <div className='bg-[#222831] relative h-full'>
                 <img src="/doodle items.svg"
-                className='w-20% object-contain md:w-[100%]'
+                className='w-50% object-contain md:w-auto md:h-auto'
                 />
                 <div className='absolute flex top-0 text-1xl md:text-5xl 
                 lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins ml-18 md:ml-36 
@@ -173,7 +173,7 @@ import { Menu, X } from 'lucide-react'; // For icons
               <div className='absolute top-0 px-36 py-72 space-x-6 font-mono'>
                 <button className='bg-[#00ADB5] px-4 py-2 rounded-3xl'>
                   All</button>
-                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl shadow-lg hover:shadow-2xl'>
+                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>
                   UI/UX</button>
                 <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>
                   Graphic Design</button>
