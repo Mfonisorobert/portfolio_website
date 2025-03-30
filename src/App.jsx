@@ -160,7 +160,7 @@ import { Menu, X } from 'lucide-react'; // For icons
                {/* SECTION THREE */}  
                <div className='bg-[#222831] relative h-full'>
                 <img src="/doodle items.svg"
-                className='w-50% object-cover md:w-[100%]'
+                className='w-20% object-contain md:w-[100%]'
                 />
                 <div className='absolute flex top-0 text-1xl md:text-5xl 
                 lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins ml-18 md:ml-36 
