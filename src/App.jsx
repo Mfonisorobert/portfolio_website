@@ -149,10 +149,10 @@ import { Menu, X } from 'lucide-react'; // For icons
 
                {/* SECTION THREE */}  
                
-               <div className='bg-[#222831] relative min-h-screen h-auto '>
+               <div className='bg-[#222831] relative px-4 py-8 md:py-2 '>
                {/*  md:w-auto md:h-auto */}
-                <img src="/doodle-items.svg"
-                className='object-cover w-[40%] md:w-[100%]'
+                <img src="/doodle items.svg"
+                className='object-cover absolute w-[40%] md:w-[100%]'
                 />
                 <div className='absolute flex top-0 text-1xl md:text-5xl
                 lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins ml-18 md:ml-36 
@@ -179,7 +179,7 @@ import { Menu, X } from 'lucide-react'; // For icons
               </div>
 
                 {/* Square shapes */}
-                <div className='flex flex-col gap-8 top-0 justify-center px-72 mt-[60%] md:mt-[28%]'>
+                <div className='flex gap-8 top-0 justify-center px-72 py-96'>
                 <img src="/UIUXFrame.svg" className='w-20 h-20 md:w-72 md:h-72'
                 />
                 <img src="/LaptopFrame 11.svg" className='w-20 h-20 md:w-72 md:h-72'
