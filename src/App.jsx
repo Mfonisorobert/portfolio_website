@@ -21,7 +21,7 @@ import { Menu, X } from 'lucide-react'; // For icons
   return (
 
     <div className="min-h-screen overflow-x-hidden">
-        <header className="flex fixed top-0 w-full z-10 justify-between bg-[#222831] items-center px-4 py-4 md:px-8 lg:px-24 border-b-2 border-cyan-900">
+        <header className="flex fixed top-0 w-full z-50 justify-between bg-[#222831] items-center px-4 py-4 md:px-8 lg:px-24 border-b-2 border-cyan-900">
             {/* <img src="/Blender Logo.png" alt="Logo" className="h-12 w-auto" />  */}
             <h1 className="text-[#EEEEEE] text-md font-poppins hover:cursor-pointer hover:text-[#00ADB5]">Mfoniso Robert</h1>    
           <nav className="hidden md:flex space-x-8 text-[#EEEEEE] text-md font-poppins hover:cursor-pointer">
@@ -150,7 +150,7 @@ import { Menu, X } from 'lucide-react'; // For icons
                       {/* Second Background */}
                       <img
                         src="/heropics2.svg"
-                        className="w-full md:w-[27%] object-cover z-4 md:absolute md:right-60 md:top-80 -mt-48 md:mt-0"
+                        className="w-full md:w-[27%] object-cover z-10 md:absolute md:right-60 md:top-80 -mt-48 md:mt-0"
                         alt="heropics"
                       />
                       </div> 
