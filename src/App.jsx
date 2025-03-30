@@ -171,11 +171,16 @@ import { Menu, X } from 'lucide-react'; // For icons
                 </div>
 
               <div className='absolute top-0 px-36 py-72 space-x-6 font-mono'>
-                <button className='bg-[#00ADB5] px-4 py-2 rounded-3xl'>All</button>
-                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>UI/UX</button>
-                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>Graphic Design</button>
-                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>Web Dev</button>
-                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>Video Editing</button>
+                <button className='bg-[#00ADB5] px-4 py-2 rounded-3xl'>
+                  All</button>
+                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl shadow-lg hover:shadow-2xl'>
+                  UI/UX</button>
+                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>
+                  Graphic Design</button>
+                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>
+                  Web Dev</button>
+                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>
+                  Video Editing</button>
               </div>
 
 
