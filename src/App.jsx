@@ -163,7 +163,7 @@ import { Menu, X } from 'lucide-react'; // For icons
                 className='w-[100%] object-cover'
                 />
                 <div className='absolute top-0 text-3xl md:text-5xl 
-                lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins ml-18 md:ml-36 mt-18 md:mt-48'>
+                lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins ml-18 md:ml-36 mt-16 md:mt-48'>
                   <h1>My recent <span className='text-[#00ADB5]'>works</span></h1>
                 </div>
                 </div>     
