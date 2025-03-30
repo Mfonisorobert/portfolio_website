@@ -182,7 +182,7 @@ import { Menu, X } from 'lucide-react'; // For icons
               </div>
 
                 {/* Square shapes */}
-                relative flex flex-col md:flex-row gap-6 mt-8 justify-center
+                
                 <div className='flex relative flex-col md:flex-row gap-8 top-0 justify-center px-72 py-80'>
                 <img src="/UIUXFrame.svg" className='w-20 h-20 md:w-72 md:h-72'
                 />
