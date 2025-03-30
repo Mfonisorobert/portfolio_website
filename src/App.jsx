@@ -167,12 +167,18 @@ import { Menu, X } from 'lucide-react'; // For icons
                 mt-1 md:mt-48 items-center justify-center  text-center left-0 md:left-auto 
                 md:block md:items-start md:justify-start h-full w-full md:w-auto md:h-auto md:text-left'>
                 
-
-                {/*  left-0 md:left-auto md:top-auto  
-    md:block md:items-start md:justify-start 
-    h-full w-full md:w-auto md:h-auto md:text-left" */}
-                  <h1 className='text-3xl md:text-5xl lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins text-center'>My recent <span className='text-[#00ADB5]'>works</span></h1>
+               <h1 className='text-3xl md:text-5xl lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins text-center'>My recent <span className='text-[#00ADB5]'>works</span></h1>
                 </div>
+
+              <div className='absolute top-0 px-36 py-72 space-x-6 font-mono'>
+                <button className='bg-[#00ADB5] px-4 py-2 rounded-3xl'>All</button>
+                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>UI/UX</button>
+                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>Graphic Design</button>
+                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>Web Dev</button>
+                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>Video Editing</button>
+              </div>
+
+
                 </div>     
             
 
