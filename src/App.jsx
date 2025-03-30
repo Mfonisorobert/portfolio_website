@@ -162,9 +162,9 @@ import { Menu, X } from 'lucide-react'; // For icons
                 <img src="/doodle items.svg"
                 className='w-[100%] object-cover'
                 />
-                <div className='absolute flex top-0 text-2xl md:text-5xl 
+                <div className='absolute flex top-0 text-1xl md:text-5xl 
                 lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins ml-18 md:ml-36 
-                mt-4 md:mt-48 items-center justify-center  text-center left-0 md:left-auto 
+                mt-1 md:mt-48 items-center justify-center  text-center left-0 md:left-auto 
                 md:block md:items-start md:justify-start h-full w-full md:w-auto md:h-auto md:text-left'>
                 
 
