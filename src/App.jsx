@@ -150,7 +150,8 @@ import { Menu, X } from 'lucide-react'; // For icons
                       {/* Second Background */}
                       <img
                         src="/heropics2.svg"
-                        className="w-full md:w-[27%] object-cover z-10 md:absolute md:right-60 md:top-80 -mt-48 md:mt-0"
+                        className="w-full md:w-[27%] object-cover z-10 md:absolute 
+                        md:right-60 md:top-80 -mt-48 md:mt-0"
                         alt="heropics"
                       />
                       </div> 
@@ -161,7 +162,8 @@ import { Menu, X } from 'lucide-react'; // For icons
                 <img src="/doodle items.svg"
                 className='w-[100%] object-cover'
                 />
-                <div className='absolute top-0 text-3xl md:text-5xl lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins ml-18 md:ml-36 mt-48 '>
+                <div className='absolute top-0 text-3xl md:text-5xl 
+                lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins ml-18 md:ml-36 mt-18 md:mt-48'>
                   <h1>My recent <span className='text-[#00ADB5]'>works</span></h1>
                 </div>
                 </div>     
