@@ -152,20 +152,23 @@ import { Menu, X } from 'lucide-react'; // For icons
                <div className='bg-[#222831] relative px-4 py-8 md:py-2 '>
                {/*  md:w-auto md:h-auto */}
                 <img src="/doodle items.svg"
-                className='object-cover absolute w-[100%] md:w-[100%]'
+                className='object-cover absolute w-full md:w-full top-0 right-0 md:right-auto md:left-0'
                 />
+                 
                 <div className='absolute flex top-0 text-1xl md:text-5xl
                 lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins ml-18 md:ml-36 
-                mt-1 md:mt-48 items-center justify-center  text-center left-0 md:left-auto 
-                md:block md:items-start md:justify-start h-full w-full md:w-auto md:h-auto md:text-left'>
+                mt-1 md:mt-48 
+                '>
                 
-               <h1 className='text-3xl md:text-5xl lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins text-center'>
+{/* items-center justify-center  text-center left-0 md:left-auto  md:block md:items-start md:justify-start h-full w-full md:w-auto md:h-auto md:text-left*/}
+                
+               <h1 className='text-2xl md:text-5xl lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins text-center'>
                 My recent <span className='text-[#00ADB5]'>works</span></h1>
                 </div>
 
 
                         {/* Buttons */}
-              <div className='absolute top-0 px-36 py-72 space-x-6 font-mono'>
+                <div className='absolute flex flex-wrap top-0 px-36 py-72 space-x-6 font-mono justify-center md:justify-start'>
                 <button className='bg-[#00ADB5] px-4 py-2 rounded-3xl'>
                   All</button>
                 <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>
