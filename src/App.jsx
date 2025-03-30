@@ -164,10 +164,8 @@ import { Menu, X } from 'lucide-react'; // For icons
                 />
                 <div className='absolute flex top-0 text-2xl md:text-5xl 
                 lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins ml-18 md:ml-36 
-                mt-16 md:mt-48 items-center justify-center  text-center
-                left-0 md:left-auto md:top-auto  
-    md:block md:items-start md:justify-start 
-    h-full w-full md:w-auto md:h-auto md:text-left'>
+                mt-4 md:mt-48 items-center justify-center  text-center left-0 md:left-auto 
+                md:block md:items-start md:justify-start h-full w-full md:w-auto md:h-auto md:text-left'>
                 
 
                 {/*  left-0 md:left-auto md:top-auto  
