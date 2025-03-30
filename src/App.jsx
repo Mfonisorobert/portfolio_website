@@ -162,14 +162,14 @@ import { Menu, X } from 'lucide-react'; // For icons
                 <img src="/doodle items.svg"
                 className='w-[100%] object-cover'
                 />
-                <div className='absolute top-0 text-3xl md:text-5xl 
+                <div className='absolute flex top-0 text-3xl md:text-5xl 
                 lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins ml-18 md:ml-36 
-                mt-16 md:mt-48 items-center justify-center flex'>
+                mt-16 md:mt-48 items-center justify-center  text-center'>
                 
 
                 {/*  left-0 md:left-auto md:top-auto  
-    flex md:block md:items-start md:justify-start 
-    h-full w-full md:w-auto md:h-auto text-center md:text-left" */}
+    md:block md:items-start md:justify-start 
+    h-full w-full md:w-auto md:h-auto md:text-left" */}
                   <h1 className='text-3xl md:text-5xl lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins text-center'>My recent <span className='text-[#00ADB5]'>works</span></h1>
                 </div>
                 </div>     
