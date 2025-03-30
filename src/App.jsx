@@ -23,11 +23,11 @@ import { Menu, X } from 'lucide-react'; // For icons
     <div className="min-h-screen overflow-x-hidden">
         <header className="flex fixed top-0 w-full z-10 justify-between bg-[#222831] items-center px-4 py-4 md:px-8 lg:px-24 border-b-2 border-cyan-900">
             {/* <img src="/Blender Logo.png" alt="Logo" className="h-12 w-auto" />  */}
-            <h1 className="text-[#EEEEEE] text-md font-poppins hover:cursor-pointer hover:text-[#bf205a]">Mfoniso Robert</h1>    
+            <h1 className="text-[#EEEEEE] text-md font-poppins hover:cursor-pointer hover:text-[#00ADB5]">Mfoniso Robert</h1>    
           <nav className="hidden md:flex space-x-8 text-[#EEEEEE] text-md font-poppins hover:cursor-pointer">
-            <h1 className="hover:text-[#bf205a]">Home</h1>
-            <h1 className="hover:text-[#bf205a]">About Me</h1>
-            <h1 className="hover:text-[#bf205a]">Contact</h1>
+            <h1 className="hover:text-[#00ADB5]">Home</h1>
+            <h1 className="hover:text-[#00ADB5]">About Me</h1>
+            <h1 className="hover:text-[#00ADB5]">Contact</h1>
             </nav>
 
             {/* Hamburger Menu Icon (Visible on small screens) */}
@@ -38,9 +38,9 @@ import { Menu, X } from 'lucide-react'; // For icons
         {/* Mobile Navigation Menu (Only visible when menuOpen is true) */}
         {menuOpen && (
           <nav className="absolute top-full left-0 w-full bg-[#222831] text-white flex flex-col items-center py-4 space-y-4 shadow-lg md:hidden">
-            <h1 className="hover:text-[#bf205a] cursor-pointer">Home</h1>
-            <h1 className="hover:text-[#bf205a] cursor-pointer">About Me</h1>
-            <h1 className="hover:text-[#bf205a] cursor-pointer">Contact</h1>
+            <h1 className="hover:text-[#00ADB5] cursor-pointer">Home</h1>
+            <h1 className="hover:text-[#00ADB5] cursor-pointer">About Me</h1>
+            <h1 className="hover:text-[#00ADB5] cursor-pointer">Contact</h1>
           </nav>  
         )}
 
@@ -58,14 +58,14 @@ import { Menu, X } from 'lucide-react'; // For icons
         </div>
             {/* Hero Info */}
             <h1 className="text-[#FFFFFF] text-5xl md:text-9xl lg:text-[84px] font-extrabold font-poppins mt-32 md:mt-0 lg:mt-0 px-6 md:px-0 lg:px-0"> 
-            CREATIVE WEB <span className="-mt-2 md:-mt-18 lg:-mt-4 text-[#bf205a]">DEVELOPER</span>
+            CREATIVE WEB <span className="-mt-2 md:-mt-18 lg:-mt-4 text-[#00ADB5]">DEVELOPER</span>
             </h1>
             <div className="flex mt-10 px-4 md:px-8 lg:px-0 -space-x-10 md:space-x-10">
-            <button className='bg-[#bf205a] text-white px-6 md:px-8 lg:px-10 py-2 rounded-3xl font-medium   hover:bg-white hover:text-[#bf205a] '>
+            <button className='bg-[#00ADB5] text-white px-6 md:px-8 lg:px-10 py-2 rounded-3xl font-medium   hover:bg-white hover:text-[#00ADB5] '>
               Hire Me
               </button>
               <div>
-            <button className='flex bg-[#ffffff] text-[#bf205a] px-8 py-2 md:px-8 lg:px-10 gap-4 rounded-3xl font-medium ml-12  hover:bg-[#bf205a] hover:text-[#ffffff]'>
+            <button className='flex bg-[#ffffff] text-[#00ADB5] px-8 py-2 md:px-8 lg:px-10 gap-4 rounded-3xl font-medium ml-12  hover:bg-[#00ADB5] hover:text-[#ffffff]'>
               Download CV 
               <img src='/downloadicon.svg' 
               className="w-5 h-6  invert hover:brightness-0"/></button>
@@ -110,7 +110,7 @@ import { Menu, X } from 'lucide-react'; // For icons
                       {/* Hero Info */}
                       <div className='h-auto w-full md:w-[50%] mb-4 md:mb-0'>
                         <h1 className="text-3xl md:text-5xl lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins"> 
-                        About<span className="text-[#bf205a] ml-4">me</span>
+                        About<span className="text-[#00ADB5] ml-4">me</span>
                         </h1>
                         
                         <h3 className="w-full md:w-[80%] text-[#EEEEEEBF] font-poppins">
@@ -134,7 +134,7 @@ import { Menu, X } from 'lucide-react'; // For icons
 
                         <button
         onClick={toggleText}
-        className=" text-[#ffffff] font-semibold hover:underline focus:outline-none hover:text-[#bf205a]">
+        className=" text-[#ffffff] font-semibold hover:underline focus:outline-none hover:text-[#00ADB5]">
         {isExpanded ? "Read Less" : "Read More"}
       </button>
               
@@ -150,22 +150,35 @@ import { Menu, X } from 'lucide-react'; // For icons
                       {/* Second Background */}
                       <img
                         src="/heropics2.svg"
-                        className="w-full md:w-[27%] object-cover z-10 md:absolute md:right-60 md:top-80 -mt-48 md:mt-0"
+                        className="w-full md:w-[27%] object-cover z-4 md:absolute md:right-60 md:top-80 -mt-48 md:mt-0"
                         alt="heropics"
                       />
                       </div> 
 
                
                {/* SECTION THREE */}  
-               <div className='bg-[#222831] absolute'>
+               <div className='bg-[#222831] relative'>
                 <img src="/doodle items.svg"
-                className='w-[100%]'
+                className='w-[100%] object-cover'
                 />
-                <div className='relative bg-red'>
-                  <h1>My recent works</h1>
+                <div className='absolute top-0 text-3xl md:text-5xl lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins ml-18 md:ml-36 mt-48 '>
+                  <h1>My recent <span className='text-[#00ADB5]'>works</span></h1>
                 </div>
                 </div>     
             
+
+                {/* <div className="bg-[#222831] relative">
+  <img 
+    src="/doodle items.svg" 
+    className="w-[100%] object-cover"
+  />
+
+  {/* Text Overlay */}
+  {/* <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+    <h1 className="text-white text-3xl font-bold">My Recent Works</h1>
+  </div>
+</div>  */}
+
     </div>
   )
 }
