@@ -96,17 +96,7 @@ import { Menu, X } from 'lucide-react'; // For icons
             {/* SECTION TWO */}
 
             <div className="relative bg-[#222831] flex flex-col md:flex-row px-4 md:px-8 lg:px-36 py-12 md:py-36">
-                        
-                        {/* herovector */}
-                        {/* <div className="w-[80%] relative">
-                      <img
-                        src="/herovector.svg"
-                        className="w-[10%] object-cover absolute py-10 -ml-20 "
-                        alt="vector"
-                      />
-
-                    </div> */}
-
+             
                       {/* Hero Info */}
                       <div className='h-auto w-full md:w-[50%] mb-4 md:mb-0'>
                         <h1 className="text-3xl md:text-5xl lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins"> 
@@ -140,29 +130,30 @@ import { Menu, X } from 'lucide-react'; // For icons
               
             </div>
                         
-                      {/* First Background */}
-                      <div className="w-full md:w-[50%] relative ">
-                      <img
-                        src="/doodlesimage2.svg"
-                        className="w-full object-cover"
-                        alt="heropics"/>
-                      </div>
-                      {/* Second Background */}
+     {/* First Background */}
+     <div className="w-full md:w-[50%] relative ">
+     <img
+     src="/doodlesimage2.svg"
+     className="w-full object-cover"
+     alt="heropics"/>
+     </div>
+      {/* Second Background */}
                       <img
                         src="/heropics2.svg"
                         className="w-full md:w-[27%] object-cover z-10 md:absolute 
                         md:right-60 md:top-80 -mt-48 md:mt-0"
                         alt="heropics"
                       />
-                      </div> 
+                      </div>                                     
 
-               
+
                {/* SECTION THREE */}  
-               <div className='bg-[#222831] relative h-full'>
-                <img src="/doodle items.svg"
+               
+               <div className='bg-red-800 relative h-[100%] bg-opacity-90'>
+                {/* <img src="/doodle items.svg"
                 className='w-50% object-contain md:w-auto md:h-auto'
-                />
-                <div className='absolute flex top-0 text-1xl md:text-5xl 
+                /> */}
+                <div className='absolute flex top-0 text-1xl md:text-5xl
                 lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins ml-18 md:ml-36 
                 mt-1 md:mt-48 items-center justify-center  text-center left-0 md:left-auto 
                 md:block md:items-start md:justify-start h-full w-full md:w-auto md:h-auto md:text-left'>
@@ -196,7 +187,7 @@ import { Menu, X } from 'lucide-react'; // For icons
 
                 </div>     
             
-
+                
                 {/* <div className="bg-[#222831] relative">
   <img 
     src="/doodle items.svg" 
