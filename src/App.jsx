@@ -1,16 +1,16 @@
 import { useState } from 'react'
 import React from "react";
-// import { Menu, X } from 'lucide-react'; // For icons
+import { Menu, X } from 'lucide-react'; // For icons
 
 
 // function App() {
 //   const [count, setCount] = useState(0)
   const App = () => {
-    const [isExpanded, setIsExpanded] = useState(false);
+    // const [isExpanded, setIsExpanded] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false); // for Harmburger
 
-    const toggleText = () => {
-      setIsExpanded(!isExpanded);
+    const toggleMenu = () => {
+      // setIsExpanded(!isExpanded);
       setMenuOpen(!menuOpen); // For Harmburger
     };
 
@@ -39,7 +39,7 @@ import React from "react";
             <h1 className="hover:text-[#bf205a] cursor-pointer">Contact</h1>
           </nav>  
         )}
-           
+
         </header>
 
             <div className="relative bg-[#222831] h-[100%] flex flex-col items-start lg:px-36 md:px-18 lg:py-44 md:py-20">
