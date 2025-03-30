@@ -1,14 +1,17 @@
 import { useState } from 'react'
 import React from "react";
+// import { Menu, X } from 'lucide-react'; // For icons
 
 
 // function App() {
 //   const [count, setCount] = useState(0)
   const App = () => {
     const [isExpanded, setIsExpanded] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false); // for Harmburger
 
     const toggleText = () => {
       setIsExpanded(!isExpanded);
+      setMenuOpen(!menuOpen); // For Harmburger
     };
 
   return (
@@ -17,11 +20,26 @@ import React from "react";
         <header className="flex fixed top-0 w-full z-10 justify-between bg-[#222831] items-center px-4 py-4 md:px-8 lg:px-24 border-b-2 border-cyan-900">
             {/* <img src="/Blender Logo.png" alt="Logo" className="h-12 w-auto" />  */}
             <h1 className="text-[#EEEEEE] text-md font-poppins hover:cursor-pointer hover:text-[#bf205a]">Mfoniso</h1>    
-          <div className="flex space-x-8 text-[#EEEEEE] text-md font-poppins hover:cursor-pointer">
+          <nav className="hidden md:flex space-x-8 text-[#EEEEEE] text-md font-poppins hover:cursor-pointer">
             <h1 className="hover:text-[#bf205a]">Home</h1>
             <h1 className="hover:text-[#bf205a]">About Me</h1>
             <h1 className="hover:text-[#bf205a]">Contact</h1>
-          </div>     
+            </nav>
+
+            {/* Hamburger Menu Icon (Visible on small screens) */}
+        <button onClick={toggleMenu} className="md:hidden text-white">
+          {menuOpen ? <X size={30} /> : <Menu size={30} />}
+        </button>
+
+        {/* Mobile Navigation Menu (Only visible when menuOpen is true) */}
+        {menuOpen && (
+          <nav className="absolute top-full left-0 w-full bg-[#222831] text-white flex flex-col items-center py-4 space-y-4 shadow-lg md:hidden">
+            <h1 className="hover:text-[#bf205a] cursor-pointer">Home</h1>
+            <h1 className="hover:text-[#bf205a] cursor-pointer">About Me</h1>
+            <h1 className="hover:text-[#bf205a] cursor-pointer">Contact</h1>
+          </nav>  
+        )}
+           
         </header>
 
             <div className="relative bg-[#222831] h-[100%] flex flex-col items-start lg:px-36 md:px-18 lg:py-44 md:py-20">
