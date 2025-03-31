@@ -194,7 +194,7 @@ import { Menu, X } from 'lucide-react'; // For icons
 
 
 <div>
-    <h1 className='text-3xl md:text-5xl md:text-[60px] text-[#FFFFFF] md:w-[75%] w-[100%] ml-24 mt-32 font-extrabold font-poppins'>
+    <h1 className='text-3xl md:text-5xl md:text-[60px] text-[#FFFFFF] md:w-[75%] w-[100%] text-center mt-32 font-extrabold font-poppins'>
     Got a project in <span className='text-[#00ADB5]'>mind?</span></h1>
     <img src='/steps.svg' className='md:ml-72 items-center justify-center ml-16'>
     </img>
