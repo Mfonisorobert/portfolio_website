@@ -169,7 +169,7 @@ import { Menu, X } from 'lucide-react'; // For icons
 
                         {/* Buttons */}
                 <div className='absolute flex flex-wrap top-0 px-36 py-8 md:py-72 space-x-6 font-mono justify-center md:justify-start'>
-                <button className='bg-[#00ADB5] px-4 py-2 rounded-3xl'>
+                <button className='bg-[#00ADB5] px-4 py-2 md:rounded-3xl rounded-md'>
                   All</button>
                 <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>
                   UI/UX</button>
