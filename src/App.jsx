@@ -168,16 +168,16 @@ import { Menu, X } from 'lucide-react'; // For icons
 
 
                         {/* Buttons */}
-                <div className='absolute flex top-0 px-36 py-8 md:py-72 space-x-6 font-mono justify-center md:justify-start'>
-                <button className='bg-[#00ADB5] px-4 py-2 rounded-3xl text-[8px] md:text-3xl lg:text-[16px]'>
+                <div className='absolute flex top-0 px-12 md:px-36 py-8 md:py-72 space-x-6 font-mono justify-center md:justify-start'>
+                <button className='bg-[#00ADB5] px-4 py-2 rounded-3xl text-lg md:text-3xl lg:text-[16px]'>
                   All</button>
-                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>
+                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl text-lg md:text-3xl lg:text-[16px]'>
                   UI/UX</button>
-                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>
+                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl text-lg md:text-3xl lg:text-[16px]'>
                   Graphic Design</button>
-                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>
+                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl text-lg md:text-3xl lg:text-[16px]'>
                   Web Dev</button>
-                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl'>
+                <button className='bg-[#ffffff] px-4 py-2 rounded-3xl text-lg md:text-3xl lg:text-[16px]'>
                   Video Editing</button>    
               </div>
 
