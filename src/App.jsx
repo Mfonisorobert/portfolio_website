@@ -168,8 +168,8 @@ import { Menu, X } from 'lucide-react'; // For icons
 
 
                         {/* Buttons */}
-                <div className='absolute min-h-hidden flex top-0 px-4 py-4 md:px-36 md:py-72 space-x-6 font-mono justify-center md:justify-start'>
-                <button className='bg-[#00ADB5] px-4 py-2 rounded-3xl text-lg md:text-3xl lg:text-[16px]'>
+                <div className='absolute min-h-hidden flex top-0 px-4 py-4 md:px-36 md:py-72 space-x-6 font-mono gap-2 justify-center md:justify-start'>
+                <button className='bg-[#00ADB5] px-2 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-3xl lg:text-[16px]'>
                   All</button>
                 <button className='bg-[#ffffff] px-4 py-2 rounded-3xl text-lg md:text-3xl lg:text-[16px]'>
                   UI/UX</button>
@@ -183,7 +183,7 @@ import { Menu, X } from 'lucide-react'; // For icons
 
                 {/* Square shapes */}
                 
-                <div className='flex absolute flex-col md:flex-row gap-8 top-0 justify-center md:ml-36 mt-10 md:mt-80'>
+                <div className='flex absolute flex-col md:flex-row gap-2 md:gap-8 top-0 justify-center md:ml-36 mt-24 md:mt-80'>
                 <img src="/UIUXFrame.svg" className='w-72 h-72 md:w-72 md:h-72'
                 />
                 <img src="/LaptopFrame 11.svg" className='w-72 h-72 md:w-72 md:h-72'
