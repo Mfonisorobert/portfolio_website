@@ -184,11 +184,11 @@ import { Menu, X } from 'lucide-react'; // For icons
                 {/* Square shapes */}
                 
                 <div className='flex absolute flex-col md:flex-row gap-8 top-0 justify-center md:ml-36 mt-10 md:mt-80'>
-                <img src="/UIUXFrame.svg" className='w-40 h-40 md:w-72 md:h-72'
+                <img src="/UIUXFrame.svg" className='w-72 h-72 md:w-72 md:h-72'
                 />
-                <img src="/LaptopFrame 11.svg" className='w-40 h-40 md:w-72 md:h-72'
+                <img src="/LaptopFrame 11.svg" className='w-72 h-72 md:w-72 md:h-72'
                 />
-                <img src="/PhonesFrame 10.svg" className='w-40 h-40 md:w-72 md:h-72'
+                <img src="/PhonesFrame 10.svg" className='w-72 h-72 md:w-72 md:h-72'
                 />
                 </div>
                 
