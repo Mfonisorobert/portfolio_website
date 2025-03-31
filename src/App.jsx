@@ -152,16 +152,13 @@ import { Menu, X } from 'lucide-react'; // For icons
                <div className='bg-[#222831] relative px-4 py-8 md:py-2 min-h-screen'>
                {/*  md:w-auto md:h-auto */}
                 <img src="/doodle items.svg"
-                className='object-cover absolute w-full md:w-full top-0 right-0 md:right-auto md:left-0'
+                className='object-cover relative w-full md:w-full top-0 right-0 md:right-auto md:left-0'
                 />
                  
                 <div className='absolute flex top-0 text-1xl md:text-5xl
                 lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins ml-18 md:ml-36 
                 mt-1 md:mt-48 
-                '>
-                
-{/* items-center justify-center  text-center left-0 md:left-auto  md:block md:items-start md:justify-start h-full w-full md:w-auto md:h-auto md:text-left*/}
-                
+                '>                
                <h1 className='text-2xl md:text-5xl lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins text-center'>
                 My recent <span className='text-[#00ADB5]'>works</span></h1>
                 </div>
@@ -183,7 +180,7 @@ import { Menu, X } from 'lucide-react'; // For icons
 
                 {/* Square shapes */}
                 
-                <div className='flex absolute flex-col md:flex-row gap-2 md:gap-8 top-0 justify-center md:ml-36 mt-24 md:mt-80'>
+                <div className='flex absolute flex-col md:flex-row gap-1 md:gap-8 top-0 justify-center md:justify-start md:ml-36 mt-24 md:mt-80'>
                 <img src="/UIUXFrame.svg" className='w-72 h-72 md:w-72 md:h-72'
                 />
                 <img src="/LaptopFrame 11.svg" className='w-72 h-72 md:w-72 md:h-72'
