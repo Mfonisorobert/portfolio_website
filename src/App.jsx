@@ -186,9 +186,48 @@ import { Menu, X } from 'lucide-react'; // For icons
                 <img src="/LaptopFrame 11.svg" className='w-72 h-72 md:w-72 md:h-72'/>
                 <img src="/PhonesFrame 10.svg" className='w-72 h-72 md:w-72 md:h-72'/>
                 </div>
-                
-                </div>     
-            
+            </div>     
+
+        
+
+<div className='bg-[#222831] flex flex-col md:flex-row'>
+
+
+<div>
+    <h1 className='text-3xl md:text-5xl lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins'>
+    Got a project in <span className='text-[#00ADB5]'>mind?</span></h1>
+    <img src='/steps.svg'>
+    </img>
+</div>
+
+
+{/* Forms section */}
+<div className="min-h-screen items-center justify-center p-4">
+      <form className="bg-[#393E4680] p-6 rounded-2xl shadow-lg w-full max-w-lg">
+        <h2 className="text-2xl font-semibold mb-4 text-[#ffffff]">Contact Me</h2>
+        <div className="flex flex-col md:flex-row gap-4 mb-4">
+          <input
+            type="text"
+            placeholder="Your Name"
+            className="bg-[#393E4680] w-full md:w-1/2 p-3 border rounded-lg focus:outline-none text-[#ffffff]  focus:ring-[#00ADB5]"
+          />
+          <input
+            type="email"
+            placeholder="Your Email"
+            className="bg-[#393E4680] w-full md:w-1/2 p-3 border rounded-lg focus:outline-none text-[#ffffff] focus:ring-[#00ADB5]"
+          />
+        </div>
+        <textarea
+          placeholder="Your Message"
+          className="bg-[#393E4680] w-full p-3 border rounded-lg mb-4 focus:outline-none text-[#ffffff] focus:ring-[#00ADB5]"
+          rows="5"
+        ></textarea>
+        <button type="submit" className="bg-[#00ADB5] text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+          Submit
+        </button>
+      </form>
+    </div>
+</div>
     </div>
   )
 }
