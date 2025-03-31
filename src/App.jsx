@@ -147,52 +147,48 @@ import { Menu, X } from 'lucide-react'; // For icons
                       </div>                                     
 
 
-               {/* SECTION THREE */}  
-               
-               <div className='bg-[#222831] absolute px-4 py-8 md:py-2 min-h-screen'>
-               {/*  md:w-auto md:h-auto */}
-                <img src="/doodle items.svg"
-                className='object-cover relative w-full md:w-full top-0 right-0 md:right-auto md:left-0'
-                />
-                 
-                <div className='absolute flex top-0 text-1xl md:text-5xl
-                lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins ml-18 md:ml-36 
-                mt-1 md:mt-48 
-                '>                
-               <h1 className='text-2xl md:text-5xl lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins text-center'>
-                My recent <span className='text-[#00ADB5]'>works</span></h1>
-                </div>
+               {/* SECTION THREE */}
+<div className='bg-[#222831] px-4 py-8 md:py-2 min-h-screen relative'>
+    {/* Background Image */}
+    <img
+        src="/doodle items.svg"
+        className='object-cover absolute w-full h-full top-0 left-0 opacity-20'
+    />
 
+    {/* Section Title */}
+    <div className='absolute top-10 md:top-20 w-full text-center'>
+        <h1 className='text-3xl md:text-5xl lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins'>
+            My recent <span className='text-[#00ADB5]'>works</span>
+        </h1>
+    </div>
 
-                        {/* Buttons */}
+    {/* Buttons */}
+    <div className='flex flex-wrap justify-center mt-32 md:mt-48 gap-2 md:gap-6 font-mono'>
+        <button className='bg-[#00ADB5] px-3 py-1 md:px-4 md:py-2 rounded-3xl text-sm md:text-lg whitespace-nowrap'>
+            All
+        </button>
+        <button className='bg-[#ffffff] px-3 py-1 md:px-4 md:py-2 rounded-3xl text-sm md:text-lg whitespace-nowrap'>
+            UI/UX
+        </button>
+        <button className='bg-[#ffffff] px-3 py-1 md:px-4 md:py-2 rounded-3xl text-sm md:text-lg whitespace-nowrap'>
+            Graphic Design
+        </button>
+        <button className='bg-[#ffffff] px-3 py-1 md:px-4 md:py-2 rounded-3xl text-sm md:text-lg whitespace-nowrap'>
+            Web Dev
+        </button>
+        <button className='bg-[#ffffff] px-3 py-1 md:px-4 md:py-2 rounded-3xl text-sm md:text-lg whitespace-nowrap'>
+            Video Editing
+        </button>
+    </div>
 
-                        flex mt-10 px-4 md:px-8 lg:px-0 -space-x-10 md:space-x-10
-                <div className='absolute flex top-0 px-4 md:px-36 md:py-72 space-x-6 font-mono gap-2 justify-center md:justify-start'>
-                <button className='bg-[#00ADB5] px-2 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-3xl lg:text-[16px]'>
-                  All</button>
-                <button className='bg-[#ffffff] px-2 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-3xl lg:text-[16px]'>
-                  UI/UX</button>
-                <button className='bg-[#ffffff] px-2 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-3xl lg:text-[16px]'>
-                  Graphic Design</button>
-                <button className='bg-[#ffffff] px-2 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-3xl lg:text-[16px]'>
-                  Web Dev</button>
-                <button className='bg-[#ffffff] px-2 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-3xl lg:text-[16px]'>
-                  Video Editing</button>    
-              </div>
+    {/* Square Shapes */}
+    <div className='flex flex-col md:flex-row gap-4 md:gap-8 mt-10 md:mt-20 items-center justify-center'>
+        <img src="/UIUXFrame.svg" className='w-36 h-36 md:w-72 md:h-72' />
+        <img src="/LaptopFrame 11.svg" className='w-36 h-36 md:w-72 md:h-72' />
+        <img src="/PhonesFrame 10.svg" className='w-36 h-36 md:w-72 md:h-72' />
+    </div>
+</div>
 
-                {/* Square shapes */}
-                
-                <div className='flex absolute flex-col md:flex-row gap-1 md:gap-8 top-0 justify-center md:justify-start md:ml-36 mt-24 md:mt-80'>
-                <img src="/UIUXFrame.svg" className='w-72 h-72 md:w-72 md:h-72 justify-center'
-                />
-                <img src="/LaptopFrame 11.svg" className='w-72 h-72 md:w-72 md:h-72'
-                />
-                <img src="/PhonesFrame 10.svg" className='w-72 h-72 md:w-72 md:h-72'
-                />
-                </div>
-                
-
-                </div>     
             
 
     </div>
