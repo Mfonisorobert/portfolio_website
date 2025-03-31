@@ -194,15 +194,15 @@ import { Menu, X } from 'lucide-react'; // For icons
 
 
 <div>
-    <h1 className='text-3xl md:text-5xl lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins'>
+    <h1 className='text-3xl md:text-5xl md:text-[60px] text-[#FFFFFF] md:w-[75%] ml-24 mt-32 font-extrabold font-poppins'>
     Got a project in <span className='text-[#00ADB5]'>mind?</span></h1>
-    <img src='/steps.svg'>
+    <img src='/steps.svg' className='ml-72'>
     </img>
 </div>
 
 
 {/* Forms section */}
-<div className="min-h-screen items-center justify-center p-4">
+<div className="min-h-screen items-center justify-center p-4 md:mr-24 mt-32">
       <form className="bg-[#393E4680] p-6 rounded-2xl shadow-lg w-full max-w-lg">
         <h2 className="text-2xl font-semibold mb-4 text-[#ffffff]">Contact Me</h2>
         <div className="flex flex-col md:flex-row gap-4 mb-4">
