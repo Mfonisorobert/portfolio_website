@@ -166,7 +166,7 @@ import { Menu, X } from 'lucide-react'; // For icons
 
 
                 {/* Buttons */}
-                <div className='absolute flex top-0 px-4 md:px-36 md:py-72 space-x-6 font-mono gap-2 justify-center md:justify-start'>
+                <div className='absolute flex flex-wrap top-0 px-4 md:px-36 md:py-72 space-x-6 font-mono gap-2 justify-center md:justify-start'>
                 <button className='bg-[#00ADB5] px-2 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-3xl lg:text-[16px]'>
                   All</button>
                 <button className='bg-[#ffffff] px-2 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-3xl lg:text-[16px]'>
@@ -181,7 +181,7 @@ import { Menu, X } from 'lucide-react'; // For icons
 
 
 {/* Buttons */}
-<div className='flex flex-wrap justify-center mt-32 md:mt-48 gap-2 md:gap-6 font-mono'>
+<div className='flex absolute flex-wrap justify-center mt-32 md:mt-48 gap-2 md:gap-6 font-mono'>
         <button className='bg-[#00ADB5] px-3 py-1 md:px-4 md:py-2 rounded-3xl text-sm md:text-lg whitespace-nowrap'>
             All
         </button>
