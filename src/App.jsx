@@ -157,7 +157,7 @@ import { Menu, X } from 'lucide-react'; // For icons
                 />
 
                 {/* Section Title */} 
-                <div className='absolute flex top-10 md:top-0 text-1xl w-full md:text-5xl  text-[#FFFFFF] ml-24 mt-24 md:ml-36 md:mt-28 
+                <div className='relative flex top-10 md:top-0 text-1xl w-full md:text-5xl  text-[#FFFFFF] ml-20 mt-24 md:ml-36 md:mt-28 
                 '>                
                <h1 className='text-2xl md:text-5xl lg:text-[60px] text-[#FFFFFF] font-extrabold font-poppins '>
                 My recent <span className='text-[#00ADB5]'>works</span></h1>
