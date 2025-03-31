@@ -232,7 +232,7 @@ import { FaFacebookF, FaLinkedinIn, FaTwitter, FaYoutube, FaInstagram } from "re
 
 
 {/* FOOTER SECTION */}
-<footer className=' h-full bg-[#222831] '>
+<footer className=' h-full bg-[#222831] py-4 '>
   <div className='py-24'>
   <div className='flex justify-center gap-16 font-poppins text-[#ffffff]'>
     <h1>Home</h1>
