@@ -166,38 +166,21 @@ import { Menu, X } from 'lucide-react'; // For icons
 
 
                 {/* Buttons */}
-                <div className='absolute flex flex-wrap top-0 px-4 mt-28 md:mt-56 md:px-36 md:gap-8 font-mono gap-2 justify-start md:justify-start'>
-                <button className='bg-[#00ADB5] px-2 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-3xl lg:text-[16px]'>
+                <div className='absolute flex flex-wrap top-0 mt-32 md:mt-56 md:px-36 md:gap-6 font-mono gap-2 justify-start md:justify-start'>
+                <button className='bg-[#00ADB5] px-3 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-lg '>
                   All</button>
-                <button className='bg-[#ffffff] px-2 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-3xl lg:text-[16px]'>
+                <button className='bg-[#ffffff] px-3 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-lg'>
                   UI/UX</button>
-                <button className='bg-[#ffffff] px-2 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-3xl lg:text-[16px]'>
+                <button className='bg-[#ffffff] px-3 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-lg'>
                   Graphic Design</button>
-                <button className='bg-[#ffffff] px-2 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-3xl lg:text-[16px]'>
+                <button className='bg-[#ffffff] px-3 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-lg'>
                   Web Dev</button>
-                <button className='bg-[#ffffff] px-2 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-3xl lg:text-[16px]'>
+                <button className='bg-[#ffffff] px-2 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-lg'>
                   Video Editing</button>    
               </div>
 
 
-{/* Buttons */}
-<div className='flex absolute flex-wrap justify-start mt-32 md:mt-48 gap-2 md:gap-6 font-mono'>
-        <button className='bg-[#00ADB5] px-3 py-1 md:px-4 md:py-2 rounded-3xl text-sm md:text-lg whitespace-nowrap'>
-            All
-        </button>
-        <button className='bg-[#ffffff] px-3 py-1 md:px-4 md:py-2 rounded-3xl text-sm md:text-lg whitespace-nowrap'>
-            UI/UX
-        </button>
-        <button className='bg-[#ffffff] px-3 py-1 md:px-4 md:py-2 rounded-3xl text-sm md:text-lg whitespace-nowrap'>
-            Graphic Design
-        </button>
-        <button className='bg-[#ffffff] px-3 py-1 md:px-4 md:py-2 rounded-3xl text-sm md:text-lg whitespace-nowrap'>
-            Web Dev
-        </button>
-        <button className='bg-[#ffffff] px-3 py-1 md:px-4 md:py-2 rounded-3xl text-sm md:text-lg whitespace-nowrap'>
-            Video Editing
-        </button>
-    </div>
+
                 {/* Square shapes */}
                 
                 <div className='flex absolute flex-col md:flex-row gap-1 md:gap-8 top-0 justify-center md:justify-start md:ml-36 mt-24 md:mt-80'>
