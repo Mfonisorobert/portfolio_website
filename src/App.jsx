@@ -179,6 +179,25 @@ import { Menu, X } from 'lucide-react'; // For icons
                   Video Editing</button>    
               </div>
 
+
+{/* Buttons */}
+<div className='flex flex-wrap justify-center mt-32 md:mt-48 gap-2 md:gap-6 font-mono'>
+        <button className='bg-[#00ADB5] px-3 py-1 md:px-4 md:py-2 rounded-3xl text-sm md:text-lg whitespace-nowrap'>
+            All
+        </button>
+        <button className='bg-[#ffffff] px-3 py-1 md:px-4 md:py-2 rounded-3xl text-sm md:text-lg whitespace-nowrap'>
+            UI/UX
+        </button>
+        <button className='bg-[#ffffff] px-3 py-1 md:px-4 md:py-2 rounded-3xl text-sm md:text-lg whitespace-nowrap'>
+            Graphic Design
+        </button>
+        <button className='bg-[#ffffff] px-3 py-1 md:px-4 md:py-2 rounded-3xl text-sm md:text-lg whitespace-nowrap'>
+            Web Dev
+        </button>
+        <button className='bg-[#ffffff] px-3 py-1 md:px-4 md:py-2 rounded-3xl text-sm md:text-lg whitespace-nowrap'>
+            Video Editing
+        </button>
+    </div>
                 {/* Square shapes */}
                 
                 <div className='flex absolute flex-col md:flex-row gap-1 md:gap-8 top-0 justify-center md:justify-start md:ml-36 mt-24 md:mt-80'>
