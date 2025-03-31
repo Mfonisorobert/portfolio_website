@@ -158,7 +158,7 @@ import { Menu, X } from 'lucide-react'; // For icons
 
                 {/* Section Title */} 
                 <div className='relative flex top-10 md:top-0 w-full items-center text-[#FFFFFF]  
-                mt-8 md:ml-36 md:mt-28 
+                mt-4 md:ml-36 md:mt-28 
                 '>                
                <h1 className='text-3xl md:text-8xl lg:text-[70px] text-[#FFFFFF] font-extrabold font-poppins '>
                 My recent <span className='text-[#00ADB5]'>works</span></h1>
@@ -166,7 +166,7 @@ import { Menu, X } from 'lucide-react'; // For icons
 
 
                 {/* Buttons */}
-                <div className='relative flex flex-wrap top-0 mt-14 md:mt-10 md:px-36 md:gap-6 font-mono gap-2 justify-start md:justify-start'>
+                <div className='relative flex flex-wrap top-0 mt-10 md:mt-10 md:px-36 md:gap-6 font-mono gap-2 justify-start md:justify-start'>
                 <button className='bg-[#00ADB5] px-3 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-lg '>
                   All</button>
                 <button className='bg-[#ffffff] px-3 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-lg'>
