@@ -165,7 +165,9 @@ import { Menu, X } from 'lucide-react'; // For icons
 
 
                         {/* Buttons */}
-                <div className='flex mt-10 px-4 md:px-8 lg:px-0 relative -space-x-10 md:space-x-10'>
+
+                        flex mt-10 px-4 md:px-8 lg:px-0 -space-x-10 md:space-x-10
+                <div className='absolute flex top-0 px-4 md:px-36 md:py-72 space-x-6 font-mono gap-2 justify-center md:justify-start'>
                 <button className='bg-[#00ADB5] px-2 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-3xl lg:text-[16px]'>
                   All</button>
                 <button className='bg-[#ffffff] px-2 py-1 text-sm md:px-4 md:py-2 rounded-3xl md:text-3xl lg:text-[16px]'>
