@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import React from "react";
 import { Menu, X } from 'lucide-react'; // For icons
-
+import { FaFacebookF, FaLinkedinIn, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
 
 // function App() {
 //   const [count, setCount] = useState(0)
@@ -138,13 +138,13 @@ import { Menu, X } from 'lucide-react'; // For icons
      alt="heropics"/>
      </div>
       {/* Second Background */}
-                      <img
-                        src="/heropics2.svg"
-                        className="w-full md:w-[27%] object-cover z-10 md:absolute 
-                        md:right-60 md:top-80 -mt-48 md:mt-0"
-                        alt="heropics"
-                      />
-                      </div>                                     
+      <img
+        src="/heropics2.svg"
+        className="w-full md:w-[27%] object-cover z-10 md:absolute 
+        md:right-60 md:top-80 -mt-48 md:mt-0"
+        alt="heropics"
+      />
+      </div>                                                                    
 
 
                {/* SECTION THREE */}  
@@ -189,10 +189,8 @@ import { Menu, X } from 'lucide-react'; // For icons
             </div>     
 
         
-
+{/* SECTION FOUR */}
 <div className='bg-[#222831] flex flex-col md:flex-row'>
-
-
 <div>
     <h1 className='text-3xl md:text-5xl md:text-[60px] text-[#FFFFFF] md:w-[75%] w-[100%] text-center md:text-left md:ml-24 mt-32 font-extrabold font-poppins'>
     Got a project in <span className='text-[#00ADB5]'>mind?</span></h1>
@@ -231,6 +229,31 @@ import { Menu, X } from 'lucide-react'; // For icons
     </div>
 
 </div>
+
+
+{/* FOOTER SECTION */}
+<footer className=' h-full bg-[#222831] '>
+  <div className='py-24'>
+  <div className='flex justify-center gap-16 font-poppins text-[#ffffff]'>
+    <h1>Home</h1>
+    <h1>About Me</h1>
+    <h1>Contact</h1>
+  </div>
+
+{/* Social Media Icons */}
+{/* npm install react-icons */}
+<div className="flex  justify-center text-[#ffffff] mt-10 gap-8">
+          <a href="#" className=" hover:text-blue-400"><FaFacebookF size={18} /></a>
+          <a href="#" className=" hover:text-pink-400"><FaInstagram size={18} /></a>
+          <a href="#" className=" hover:text-blue-500"><FaLinkedinIn size={18} /></a>
+          <a href="#" className=" hover:text-blue-300"><FaTwitter size={18} /></a>
+          <a href="#" className=" hover:text-red-500"><FaYoutube size={18} /></a>
+          </div>
+        </div>
+        <div className='flex justify-center items-center'>
+        <h1 className='text-[#939EA4] text-sm font-mono '>©2025 Mfoniso Robert</h1>
+        </div>
+</footer>
     </div>
   )
 }
